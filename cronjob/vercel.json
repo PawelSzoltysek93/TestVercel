@@ -1,0 +1,6 @@
+{
+    "crons": [{
+      "path": "/api/cron/crypto/route.ts",
+      "schedule": "1 * * * *"
+    }]
+  }
