@@ -15,9 +15,9 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
       <h1 className="text-3xl font-bold mb-4"> Crypto Prices</h1>
       <div className="bg-white p-6 rounded-lg shadow-md space-y-4">
-        <p> Bitcoin: ${prices.bitcoin?.usd}</p>
-        <p> Ethereum: ${prices.ethereum?.usd}</p>
-        <p> Solana: ${prices.solana?.usd}</p>
+        <p> Bitcoin : ${prices.bitcoin?.usd}</p>
+        <p> Ethereum : ${prices.ethereum?.usd}</p>
+        <p> Solana : ${prices.solana?.usd}</p>
       </div>
     </main>
   );
