@@ -1,6 +1,6 @@
 {
     "crons": [{
-      "path": "/api/cron/crypto/route.ts",
+      "path": "TestVercel/cronjob/app/api/crypto/route.ts",
       "schedule": "* 9 * * *"
     }]
   }
